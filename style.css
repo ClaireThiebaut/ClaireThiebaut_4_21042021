@@ -95,11 +95,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
-}
-
-h4 {
-    color:black;
+    color: #F3976C;
 }
 
 /* Style de la citation */
@@ -194,11 +190,6 @@ label {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -227,11 +218,9 @@ label {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-/* .d-bloc a .icon-md, */
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
-/* .d-bloc h2 a, */
 .d-bloc h3 a,
 .d-bloc h4 a,
 .d-bloc h5 a,
@@ -248,7 +237,6 @@ label {
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
-/* .d-bloc h2 a:hover, */
 .d-bloc h3 a:hover,
 .d-bloc h4 a:hover,
 .d-bloc h5 a:hover,
@@ -329,7 +317,6 @@ label {
 .l-bloc a .icon-lg,
 .l-bloc a .icon-xl,
 .l-bloc h1 a,
-/* .l-bloc h2 a, */
 .l-bloc h3 a,
 .l-bloc h4 a,
 .l-bloc h5 a,
@@ -347,7 +334,6 @@ label {
 .l-bloc a:hover .icon-lg,
 .l-bloc a:hover .icon-xl,
 .l-bloc h1 a:hover,
-/* .l-bloc h2 a:hover, */
 .l-bloc h3 a:hover,
 .l-bloc h4 a:hover,
 .l-bloc h5 a:hover,
@@ -400,7 +386,7 @@ label {
 }
 
 .navbar-brand {
-    height: auto;
+    /* height: auto; */
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
@@ -411,6 +397,8 @@ label {
 .navbar-brand img {
     margin: 0 5px 0 0;
     display: inline; 
+    width: auto; 
+    height: 50px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -663,6 +651,11 @@ button {
 
 .col-sm-6 {
     width: 320px;
+}
+
+.img-responsive {
+    width: 290px;
+    height: 290px;
 }
 
 a[data-lightbox] {
