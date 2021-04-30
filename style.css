@@ -20,6 +20,7 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    font-weight: bold;
 }
 
 #page-loading-blocs-notifaction {
@@ -95,7 +96,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #F3976C;
+    color: #575757;
 }
 
 /* Style de la citation */
@@ -129,14 +130,9 @@ label {
     font-style: italic;
 }
 
-.grey_subtitle {  /* sous-titre "web design" */
-    color: #575757;
+.bold {
+    font-weight: bold;
 }
-
-.white_subtitle {  /* sous-titre "web design" */
-    color: #FFFF;
-}
-
 
 /* BREAKPOINTS des textes */
 @media (max-width: 480px) {
@@ -222,9 +218,6 @@ label {
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
 .d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
@@ -238,9 +231,7 @@ label {
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
 .d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
+
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
 }
@@ -318,9 +309,7 @@ label {
 .l-bloc a .icon-xl,
 .l-bloc h1 a,
 .l-bloc h3 a,
-.l-bloc h4 a,
-.l-bloc h5 a,
-.l-bloc h6 a,
+
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
 }
@@ -335,9 +324,6 @@ label {
 .l-bloc a:hover .icon-xl,
 .l-bloc h1 a:hover,
 .l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
-.l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
 }
@@ -386,7 +372,6 @@ label {
 }
 
 .navbar-brand {
-    /* height: auto; */
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
@@ -397,8 +382,8 @@ label {
 .navbar-brand img {
     margin: 0 5px 0 0;
     display: inline; 
-    width: auto; 
     height: 50px;
+    width: auto; 
 }
 
 .navbar-brand img[src$=svg] {
@@ -545,6 +530,13 @@ nav .caret {
     margin-bottom: 40px;
 }
 
+
+/* Logo chouette */
+
+.image-resize-mode {
+    width: 100px;
+    height: 100px;
+}
 
 /* ----------------------------- BUTTON ------------------------------*/
 
@@ -768,10 +760,6 @@ a[data-lightbox]:hover img {
 }
 
 
-
-
-
-
 /* ------------ 2 HERO BLOCKS (TOP - BOTTOM ) -----------------*/
 .hero-bloc-text {
     font-size: 38px;
@@ -790,8 +778,6 @@ a[data-lightbox]:hover img {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
-
 
 .tight-width-whitespace {
     max-width: 600px;
