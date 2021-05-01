@@ -7,10 +7,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-
-
-
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -122,6 +118,7 @@ p {
 label {
     font-weight: bold;
     color: black;
+    font-size: 1.2em;
 }
 
 /* ------------------ LES EXCEPTIONS <SPAN SUBTITLES> -----------  */
