@@ -386,7 +386,7 @@ label {
     margin: 0 5px 0 0;
     display: inline; 
     height: 50px;
-    width: auto; 
+    width: 270px; 
 }
 
 .navbar-brand img[src$=svg] {
