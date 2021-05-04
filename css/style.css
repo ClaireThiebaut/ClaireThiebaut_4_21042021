@@ -951,20 +951,20 @@ tight-width-whitespace-trspt {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("../img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines_bg.jpg");
+    background-image: url("../img/lines_bg.jpg");
 }
 
 .bg-banniere {
-    background-image: url("img/banniere_low.jpg");
+    background-image: url("../img/banniere_low.jpg");
     width: 100%;
 }
 
 .bg-presentation {
-    background-image: url("img/presentation_low.jpg");
+    background-image: url("../img/presentation_low.jpg");
 }
 
 @media (max-width: 1024px) {
